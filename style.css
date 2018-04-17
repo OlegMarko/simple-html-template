@@ -140,6 +140,30 @@ main .main-welcome p { font-size: 21px; }
 .about-position { font-size: 14px; }
 
 
+.services-img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fcac45;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+}
+.services-cards {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+}
+.main-services h1 {
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+.main-services p {
+    color: #6c6c6c;
+    margin-bottom: 100px;
+}
+.services-card h4 { margin-bottom: 15px; }
+
 @media screen and (max-width: 1140px) {
     nav { margin-left: 20%; }
 }
@@ -191,4 +215,10 @@ main .main-welcome p { font-size: 21px; }
 
 
     .team-items { flex-direction: column; }
+
+
+
+    .services-cards {
+        grid-template-columns: auto;
+    }
 }
