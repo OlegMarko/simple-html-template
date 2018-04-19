@@ -183,6 +183,32 @@ main .main-welcome p { font-size: 21px; }
 }
 
 
+.main-work {
+    text-align: center;
+    padding: 100px 0;
+}
+.main-work h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.main-work p {
+    font-style: italic;
+    margin-bottom: 175px;
+    color: #6c6c6c;
+}
+.main-work img {
+    max-width: calc(100% - 30px);
+    margin: 15px;
+}
+.main-work img:hover {
+    opacity: .9;
+}
+
+.main-work .gallery div {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
 
 .main-testimonials {
     background-color: #000000;
@@ -253,7 +279,13 @@ main .main-welcome p { font-size: 21px; }
 
     .team-items { flex-direction: column; }
 
+    .line1 img:not(:first-child) { display: none; }
+    .line2 img:not(:first-child) { display: none; }
+    .line3 img:not(:first-child) { display: none; }
 
+    .main-work .gallery div {
+        grid-template-columns: auto;
+    }
 
     .services-cards {
         grid-template-columns: auto;
