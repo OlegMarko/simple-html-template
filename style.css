@@ -2,7 +2,24 @@
     margin: 0;
     padding: 0;
 }
-a { text-decoration: none; }
+a { 
+    text-decoration: none;
+ }
+ header>div>p:hover{
+    color: #fcac45;;
+}
+
+header>nav>div>a:hover{
+    color: #fcac45;;
+}
+
+section>div>h1:hover{
+    color: #fcac45;;
+}
+footer>p:hover{
+    color: #fcac45;;
+}
+
 li { list-style: none; }
 body { font-family: 'Open Sans', sans-serif; }
 
